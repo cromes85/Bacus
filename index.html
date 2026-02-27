@@ -828,8 +828,6 @@ async function submitForm() {
       showError("Erreur de connexion. Réessaie dans quelques secondes.");
       console.error(err2);
     }
-  }
-  
   } finally {
     btn.classList.remove('loading');
     btn.disabled = false;
